@@ -1,0 +1,32 @@
+.projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-container {
+  max-width: 60rem;
+}
+
+.project-image {
+  display: flex;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.project-image img{
+  border-radius: 10px;
+  height: 300px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}

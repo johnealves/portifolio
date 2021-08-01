@@ -1,0 +1,98 @@
+.stack-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+  max-width: 800px;
+}
+
+.stack-card {
+  align-items: center;
+  background-color: rgb(38, 39, 41);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  height: 9rem;
+  width: 8rem;
+}
+
+.stack-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.stack-container h1 {
+  color: #236bbe;
+  margin: 1rem;
+}
+
+.stack-list-container li {
+  display: block;
+  font-size: 2rem;
+  padding: 20px;
+  width: 50%;
+}
+
+.stack-list-container span {
+  margin-right: 1rem;
+}
+
+.stack-list-container:nth-child(1) span {
+  color: #e94e31;
+}
+
+.stack-list-container:nth-child(2) span {
+  color: #f06529;
+}
+
+.stack-list-container span {
+  color: #1e90ff;
+}
+
+.stack-list-container li:nth-child(4) span {
+  color: #f7df1e;
+}
+
+.stack-list-container li:nth-child(5) span {
+  color: #61dafb;
+}
+
+.stack-list-container li:nth-child(6) span {
+  color: #764abc;
+}
+
+.stack-list-container li:nth-child(7) span {
+  color: #1b5310;
+}
+
+.stack-list-container li:nth-child(9) span {
+  color: #bf3a13;
+}
+
+.stack-list-container li:nth-child(10) span {
+  color: #e1d3c8;
+}
+
+@media (max-width: 720px) {
+  .stack-list-container {
+    padding: 0;
+  }
+
+  .stack-list-container li{
+    padding: 10px;
+    width: 100%;
+  }
+}
