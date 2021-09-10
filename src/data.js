@@ -1,7 +1,14 @@
 import g13 from './Assets/g13-store.png'
 import trivia from './Assets/trivia.png'
+import webChat from './Assets/webchat.png'
 
 const projectList = [
+  {
+    name: "Web Chat",
+    description: "Aplicação online que usa Sockei.io para um sistema de chat com troca de menssagens em tempo real entre os usuarios conectados",
+    image: webChat,
+    link: 'https://john-web-chat.herokuapp.com/',
+  },
   {
     name: "G13 Store",
     description: "Prototipo de uma loja online que busca produtos a partir de uma API do Mercado Livre",
