@@ -1,3 +1,3 @@
 #### Portifolio para projetos pessoais
 
-link: https://johnealves.herokuapp.com/
+link: https://portifoliojohne.herokuapp.com/
