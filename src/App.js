@@ -1,8 +1,8 @@
 import { Link, Route, Switch } from 'react-router-dom';
-import Home from './Component/Home';
-import NoMatch from './Component/NoMatch';
-import Projects from './Component/Projects';
-import Stacks from './Component/Stacks';
+import Home from './Pages/Home';
+import NoMatch from './Pages/NoMatch';
+import Projects from './Pages/Projects';
+import Stacks from './Pages/Stacks';
 import './App.css';
 
 function App() {
